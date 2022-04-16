@@ -1,0 +1,20 @@
+.ui-inline {
+  display: flex;
+  align-items: center;
+}
+
+.ui-inline-stacked {
+  justify-content: flex-start;
+}
+
+.ui-inline-spaced {
+  justify-content: space-between;
+}
+
+.ui-inline > * {
+  margin-right: 0.75rem;
+}
+
+.ui-inline > *:last-child {
+  margin-right: 0;
+}

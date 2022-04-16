@@ -1,0 +1,20 @@
+.ui-list {
+  background-color: var(--background-100);
+  border-radius: var(--radius-300);
+  padding: 0;
+  list-style: none;
+}
+.ui-list-item {
+  border: 1px solid var(--transparency-100);
+  border-bottom: none;
+  padding: var(--padding-300);
+}
+.ui-list > li:first-child > .ui-list-item {
+  border-top-left-radius: var(--radius-300);
+  border-top-right-radius: var(--radius-300);
+}
+.ui-list > li:last-child > .ui-list-item {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+  border-bottom-left-radius: var(--radius-300);
+  border-bottom-right-radius: var(--radius-300);
+}

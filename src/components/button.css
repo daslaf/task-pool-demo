@@ -1,0 +1,26 @@
+.ui-button {
+  -webkit-appearance: initial;
+  display: inline-block;
+  padding: var(--padding-300);
+  position: relative;
+  background-color: var(--background-100);
+  border: 1px solid var(--background-300);
+  border-radius: var(--radius-300);
+  cursor: pointer;
+  font-family: var(--font-mono);
+  font-size: 1rem;
+  font-weight: 500;
+  text-align: center;
+  text-decoration: none;
+  opacity: 1;
+  transition: all 195ms ease;
+}
+
+.ui-button:hover {
+  background-color: var(--background-300);
+}
+
+.ui-button:disabled {
+  background-color: var(--background-300);
+  opacity: 0.8;
+}

@@ -1,0 +1,81 @@
+.ui-spinner {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ui-spinner div {
+  width: 6%;
+  height: 16%;
+  position: absolute;
+  left: 49%;
+  top: 43%;
+  opacity: 0;
+  border-radius: 50px;
+  animation: fade 1s linear infinite;
+  background: #4a4a4a;
+}
+
+.ui-spinner .ui-spinner-bar-01 {
+  transform: rotate(0deg) translate(0, -130%);
+  animation-delay: 0s;
+}
+
+.ui-spinner .ui-spinner-bar-02 {
+  transform: rotate(30deg) translate(0, -130%);
+  animation-delay: -0.9167s;
+}
+
+.ui-spinner .ui-spinner-bar-03 {
+  transform: rotate(60deg) translate(0, -130%);
+  animation-delay: -0.833s;
+}
+
+.ui-spinner .ui-spinner-bar-04 {
+  transform: rotate(90deg) translate(0, -130%);
+  animation-delay: -0.7497s;
+}
+.ui-spinner .ui-spinner-bar-05 {
+  transform: rotate(120deg) translate(0, -130%);
+  animation-delay: -0.667s;
+}
+.ui-spinner .ui-spinner-bar-06 {
+  transform: rotate(150deg) translate(0, -130%);
+  animation-delay: -0.5837s;
+}
+.ui-spinner .ui-spinner-bar-07 {
+  transform: rotate(180deg) translate(0, -130%);
+  animation-delay: -0.5s;
+}
+.ui-spinner .ui-spinner-bar-08 {
+  transform: rotate(210deg) translate(0, -130%);
+  animation-delay: -0.4167s;
+}
+.ui-spinner .ui-spinner-bar-09 {
+  transform: rotate(240deg) translate(0, -130%);
+  animation-delay: -0.333s;
+}
+.ui-spinner .ui-spinner-bar-10 {
+  transform: rotate(270deg) translate(0, -130%);
+  animation-delay: -0.2497s;
+}
+.ui-spinner .ui-spinner-bar-11 {
+  transform: rotate(300deg) translate(0, -130%);
+  animation-delay: -0.167s;
+}
+.ui-spinner .ui-spinner-bar-12 {
+  transform: rotate(330deg) translate(0, -130%);
+  animation-delay: -0.0833s;
+}
+
+@keyframes fade {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0.25;
+  }
+}

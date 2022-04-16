@@ -1,0 +1,24 @@
+{
+  "counters": [
+    {
+      "count": 11,
+      "id": "c9b8779a-5514-456e-b075-481a8042bb1d",
+      "title": "Do things"
+    },
+    {
+      "id": "f06ad968-9397-4025-9091-3ac405c45ce4",
+      "count": 17,
+      "title": "Whatever"
+    },
+    {
+      "id": "ae3f376e-ef65-4a7d-928f-cc866ac18cad",
+      "count": 18,
+      "title": "This is a longer thing to count"
+    },
+    {
+      "id": "66ef003f-0211-4a43-9407-eda7108430d5",
+      "count": 6,
+      "title": "Do moe things"
+    }
+  ]
+}

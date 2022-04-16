@@ -1,0 +1,38 @@
+:root {
+  --background-100: #fff;
+  --background-200: #f2f2f2;
+  --background-300: #e4e4e4;
+
+  --tint: #f0f;
+  --secondary: #7f00ff;
+  --fill: #7e7e7e;
+  --highlight: #3636f2;
+
+  --transparency-100: rgba(0, 0, 0, 0.08);
+  --transparency-200: rgba(0, 0, 0, 0.16);
+
+  --padding-100: 0.375rem 0.5rem;
+  --padding-200: 0.5rem 0.75rem;
+  --padding-300: 0.75rem 1rem;
+
+  --radius-100: 0.25rem;
+  --radius-200: 0.375rem;
+  --radius-300: 0.5rem;
+
+  --size-100: 0.125rem;
+  --size-200: 0.25rem;
+  --size-300: 0.375rem;
+  --size-400: 0.5rem;
+  --size-500: 0.75rem;
+  --size-600: 1rem;
+  --size-700: 1.25rem;
+  --size-800: 1.5rem;
+
+  --font-mono: 'Fira Code', monospace;
+}
+
+.container {
+  margin: auto;
+  max-width: 640px;
+  padding: 0 1rem;
+}
